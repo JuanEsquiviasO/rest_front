@@ -115,6 +115,14 @@ textarea {
   color: white;
 }
 
+.lemon-script {
+  font-family: 'Lemon', cursive;
+}
+
+.title {
+  font-size: 2.5em;
+}
+
 .relative {
   position: relative;
 }
