@@ -5,6 +5,7 @@
 		%title Trattoria Delicass - The Best Food
 		%meta{name:"description", content:"Enjoy the best food that will make you feel in the Mediterranean"}
 		%link{rel:"stylesheet", href:"css/normalize.css"}
+		%link{rel:"stylesheet", href:"https://cdn.jsdelivr.net/flexboxgrid/6.3.2/flexboxgrid.min.css"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
@@ -18,6 +19,10 @@
 			upgrade your browser for a better experience
 		="<![endif]-->"
 		.video-container
-			%video{autoplay:true, loop:true, width:"1280", height:"720"}
+			%video{autoplay:true, loop:true, width:"1280", height:"720", poster:"/videos/images/drink-wine.jpg"}
 				%source{src:"/videos/mp4/drink-wine.mp4", typ:"video/mp4"}
 				%source{src:"/videos/webm/drink-wine.webm", typ:"video/webm"}
+		.row.full-height.middle-xs.center-xs.relative.up
+			.col-xs-12
+				.box
+					%h1.white-text Trattoria Delicass
