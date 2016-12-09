@@ -6,6 +6,7 @@
 		%meta{name:"description", content:"Enjoy the best food that will make you feel in the Mediterranean"}
 		%link{href:"https://fonts.googleapis.com/css?family=Lemon", rel:"stylesheet"}
 		%link{rel:"stylesheet", href:"css/normalize.css"}
+		%link{rel:"stylesheet", href:"css/bootstrap.css"}
 		%link{rel:"stylesheet", href:"https://cdn.jsdelivr.net/flexboxgrid/6.3.2/flexboxgrid.min.css"}
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
@@ -29,8 +30,9 @@
 					%img{src:"/imgs/logo.png", width:120}
 					%h1.lemon-script.title.no-margin Trattoria Delicass
 					%p#is-open The Best Food
-			%nav.fixed.top.right.white-text#navigation
-				%ul
+			%nav.fixed.top.right.navigation.white-text#navigation
+				-menu = []
+				%ul.list-inline
 					%li Home
 					%li Menu
 					%li Gallery

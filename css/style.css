@@ -108,6 +108,10 @@ textarea {
   transform: translate(-50%, -50%);
 }
 
+.navigation li {
+  padding: 5px 10px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -123,6 +127,10 @@ textarea {
   font-size: 2.5em;
 }
 
+.medium, .navigation li {
+  font-size: 1.5em;
+}
+
 .fixed {
   position: fixed;
 }
@@ -132,7 +140,7 @@ textarea {
 }
 
 .top {
-  top: 1em;
+  top: 3em;
 }
 
 .right {
